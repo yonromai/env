@@ -48,6 +48,7 @@ brew install macvim --custom-icons --override-system-vim --with-lua --with-luaji
 
 echo "Setting up git..."
 brew install git
+git config --global credential.helper osxkeychain
 git config --global user.name "Romain Yon"
 git config --global user.email "yonromai@users.noreply.github.com"
 
