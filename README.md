@@ -6,3 +6,6 @@ TODO:
 * use karabiner to remap esc to hotkey
 * setup 1password
 * use boxen https://boxen.github.com/
+* configure slate
+* setup dodge at startup
+

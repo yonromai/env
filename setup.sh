@@ -1,5 +1,7 @@
 # Main setup script
 
+ssh-add ~/.ssh/id_rsa
+
 echo "Installing Homebrew..."
 rm -rf /usr/local/Cellar /opt/homebrew-cask /usr/local/.git && brew cleanup
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
